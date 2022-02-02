@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: slot
+metadata:
+  name: example-slot
+  namespace: examples
+spec:
+  min: 0
+  max: 100
+  offset: 50
+  size: u8

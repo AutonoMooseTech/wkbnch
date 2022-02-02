@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: message
+metadata:
+  name: example-message
+  namespace: examples
+spec:
+  id:
+    standard: 0xFF
+  length: 4
+  data:
+    - name: http
+      size: u8
+    - name: https
+      size: u8
