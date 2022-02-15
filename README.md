@@ -1,2 +1,9 @@
 # wkbnch
-Tool for generating code templates from CAN YAML object files
+
+Pronounced workbench, wkbnch is a tool for SchemaCAN translation and code generation.
+
+## Installation
+
+```bash
+go get github.com/AutonoMooseTech/wkbnch
+```
